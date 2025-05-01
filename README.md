@@ -8,10 +8,12 @@ In this Hackathon, we are using high-resolution models that omit several traditi
 
 See more description [here](https://github.com/dongqi-DQ/hk25-teams/blob/main/hk25-AusNode/hk25-AusNode-LargeScaleP.md).
 
-**Project leads:** 
+**Project leads:**  
+
 Dongqi Lin ([@dongqi-DQ](https://github.com/dongqi-DQ)), Monash University ([dongqi.lin@monash.edu](dongqi.lin@monash.edu))  
 
-**Project members:** 
+**Project members:**   
+
 Yi-Xian Li ([@y-x-li](https://github.com/y-x-li)), Monash University ([yi-xian.li@monash.edu](yi-xian.li@monash.edu))  
 
 name, affiliation/github username
