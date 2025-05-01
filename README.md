@@ -18,7 +18,7 @@ Yi-Xian Li ([@y-x-li](https://github.com/y-x-li)), Monash University ([yi-xian.l
 **Project members:**   
 
 
-name, affiliation/github username
+Name, affiliation/github username
 
 **Collaborators:** 
 - This project overlaps with the Mesoscale Degree of Organization (hk25-AusNode-DOCmeso)
