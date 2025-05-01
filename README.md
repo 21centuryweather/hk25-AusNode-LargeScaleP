@@ -3,7 +3,7 @@
 Project description, please include the main idea and questions that motivate the project.
 
 
-**Project leads:** Dongqi Lin ([dongqi-DQ](https://github.com/dongqi-DQ)), Monash University ((dongqi.lin@monash.edu)[dongqi.lin@monash.edu])
+**Project leads:** Dongqi Lin ([dongqi-DQ](https://github.com/dongqi-DQ)), Monash University ([dongqi.lin@monash.edu](dongqi.lin@monash.edu))
 
 **Project members:** name, affiliation/github username
 
