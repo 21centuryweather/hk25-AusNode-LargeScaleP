@@ -12,9 +12,11 @@ See more description [here](https://github.com/dongqi-DQ/hk25-teams/blob/main/hk
 
 Dongqi Lin ([@dongqi-DQ](https://github.com/dongqi-DQ)), Monash University ([dongqi.lin@monash.edu](dongqi.lin@monash.edu))  
 
+Yi-Xian Li ([@y-x-li](https://github.com/y-x-li)), Monash University ([yi-xian.li@monash.edu](yi-xian.li@monash.edu))  
+
+
 **Project members:**   
 
-Yi-Xian Li ([@y-x-li](https://github.com/y-x-li)), Monash University ([yi-xian.li@monash.edu](yi-xian.li@monash.edu))  
 
 name, affiliation/github username
 
