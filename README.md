@@ -1,17 +1,28 @@
 # The relationship of cloud size and number with large-scale environment for precipitation in high-resolution models  <img src='https://21centuryweather.org.au/wp-content/uploads/Hackathon-Image-WCRP-Positive-1536x736.jpg' align="right" height="139" />
 
-Project description, please include the main idea and questions that motivate the project.
+Simulating clouds remains one of the greatest challenges in global climate models. Convective clouds, in particular, are often much smaller than the grid size of traditional global climate models. As a result, these models rely on convective parameterisation schemes that assume quasi-equilibrium between the large-scale environment and the convective processes within each grid box. However, as model resolution gets finer, this assumption breaks down — especially when convection occupies a significant portion of a grid cell.
 
+[Louf et al. (2019)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019GL083964) examined how the size and number of clouds relate to their large-scale environment in regions of deep tropical convection. Using radar data from Darwin, Australia, and environmental conditions derived from a blend of ECMWF analyses and observations, they found that the strongest rainfall doesn't always align with the most intense convection at the model grid scale.
 
-**Project leads:** Dongqi Lin ([dongqi-DQ](https://github.com/dongqi-DQ)), Monash University ([dongqi.lin@monash.edu](dongqi.lin@monash.edu))
+In this Hackathon, we are using high-resolution models that omit several traditional parameterisations, including those for convection, gravity waves, and the boundary layer. However, removing these schemes introduces new challenges: some high-resolution models may now produce storms that are smaller than those presented in the observations. This project explores whether these high-resolution models can reproduce the environmental conditions and precipitation patterns similar to those in Louf et al. (2019), and how these features differ across models.
+
+See more description [here](https://github.com/dongqi-DQ/hk25-teams/blob/main/hk25-AusNode/hk25-AusNode-LargeScaleP.md).
+
+**Project leads:** Dongqi Lin ([@dongqi-DQ](https://github.com/dongqi-DQ)), Monash University ([dongqi.lin@monash.edu](dongqi.lin@monash.edu))
 
 **Project members:** name, affiliation/github username
 
-**Collaborators:** list here other collaborators to the project.
+**Collaborators:** 
+- This project overlaps with the Mesoscale Degree of Organization (hk25-AusNode-DOCmeso)
+- and perhaps some projects in other node (will add later)
 
 **Data:**
-* Name, link
-* Name, link
+- Region of interest: northern Australia and the maritime continent
+- 2D output variables (1hr instantaneous): precipitation_flux (pr), toa_outgoing_longwave_flux (rlut)
+- 2D output variables (3hr mean): precipitation_flux (pr), toa_outgoing_longwave_flux (rlut), cloud_area_fraction (clt)
+- 3D output variables (6hr instantaneous): upward_air_velocity (wa), relative_humidity (hur), temperature (ta)
+- Darwin radar and ERA5 are available on NCI ([`rq0`](https://geonetwork.nci.org.au/geonetwork/srv/eng/catalog.search#/metadata/f4093_2998_3846_6573) and [`rt52`](https://geonetwork.nci.org.au/geonetwork/srv/eng/catalog.search#/metadata/f2836_1346_3774_9763))
+- Potentially any radar in the tropics, or satellite data if anyone or any node has the data
 
 ## Contributing Guidelines
 
