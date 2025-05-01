@@ -22,7 +22,7 @@ Name, affiliation/github username
 
 **Collaborators:** 
 - This project overlaps with the Mesoscale Degree of Organization (hk25-AusNode-DOCmeso)
-- and perhaps some projects in other node (will add later)
+- and perhaps some projects in other nodes (e.g. [hk25-CloudClimato](https://github.com/digital-earths-global-hackathon/hk25-teams/tree/main/hk25-CloudClimato))
 
 **Data:**
 - Region of interest: northern Australia and the maritime continent
