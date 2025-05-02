@@ -34,7 +34,7 @@ Name, affiliation/github username
 
 **Demonstration code:**  
 
-Dongqi has put some demo scripts in [Demo](/Demo/). These scripts replicate Figures 1 and 2 in Louf et al. (2019) using the Darwin radar and ERA5 for the wet season between 2020-03-01 and 2021-02-28 (the high-res model simulation period). For fast CAPE calculation, refer to [calc_xcape.py](/Demo/py_scripts/calc_xcape.py). 
+Demo scripts can be found in [Demo](/Demo/). These scripts replicate Figures 1 and 2 in Louf et al. (2019) using the Darwin radar and ERA5 for the wet season between 2020-03-01 and 2021-02-28 (the high-res model simulation period). For fast CAPE calculation, refer to [calc_xcape.py](/Demo/py_scripts/calc_xcape.py). 
 
 We may need to have a separate Python environment for the XCAPE pacakge. Follow the [instructions](Instructions_for_python_environment.md) if you are not familiar with conda environment handling.
 
