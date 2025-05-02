@@ -38,6 +38,8 @@ Demo scripts can be found in [Demo](/Demo/). These scripts replicate Figures 1 a
 
 We may need to have a separate Python environment for the XCAPE pacakge. Follow the [instructions](Instructions_for_python_environment.md) if you are not familiar with conda environment handling.
 
+More instructions about the hackathon can be found [here](https://github.com/21centuryweather/hackathon-2025-australia-node). 
+
 ## Contributing Guidelines
 
 > The group will decide how to work as a team. This is only an example. 
