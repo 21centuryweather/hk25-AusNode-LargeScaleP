@@ -32,6 +32,10 @@ Name, affiliation/github username
 - Darwin radar and ERA5 are available on NCI ([`rq0`](https://geonetwork.nci.org.au/geonetwork/srv/eng/catalog.search#/metadata/f4093_2998_3846_6573) and [`rt52`](https://geonetwork.nci.org.au/geonetwork/srv/eng/catalog.search#/metadata/f2836_1346_3774_9763))
 - Potentially any radar in the tropics, or satellite data if anyone or any node has the data
 
+**Demonstration code:**
+Dongqi has put some demo scripts in [Demo](/Demo/). These scripts replicate Figures 1 and 2 in Louf et al. (2019) using the Darwin radar and ERA5 for the wet season between 2020-03-01 and 2021-02-28 (the high-res model simulation period). For fast CAPE calculation, refer to [calc_xcape.py](/Demo/py_scripts/calc_xcape.py). 
+
+
 ## Contributing Guidelines
 
 > The group will decide how to work as a team. This is only an example. 
