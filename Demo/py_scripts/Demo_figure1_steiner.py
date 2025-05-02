@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[9]:
+# In[1]:
 
 
 import xarray as xr
@@ -23,19 +23,19 @@ params={
 plt.rcParams.update(params)
 
 
-# In[2]:
-
-
-ds_ts = xr.open_mfdataset("/scratch/k10/dl6968/prep_hk25/steiner_ts/*.nc")
-
-
 # In[3]:
+
+
+ds_ts = xr.open_mfdataset("/scratch/xp65/dl6968/prep_hk25/steiner_ts/*.nc")
+
+
+# In[ ]:
 
 
 ds_ts
 
 
-# In[4]:
+# In[ ]:
 
 
 ## array to store object number
@@ -55,7 +55,7 @@ tot_mean_prcp_arr = ds_ts["tot_mean_prcp"].where(np.isfinite(ds_ts["tot_mean_prc
 cvt_tot_prcp_arr = ds_ts["cvt_tot_prcp"].where(np.isfinite(ds_ts["cvt_tot_prcp"]), other=np.nan)
 
 
-# In[15]:
+# In[ ]:
 
 
 # your data
@@ -90,7 +90,7 @@ plt.tight_layout()
 plt.show()
 
 
-# In[19]:
+# In[ ]:
 
 
 x = mean_obj_area_arr.values
@@ -139,7 +139,7 @@ ax.set_ylabel('N')
 plt.tight_layout()
 
 
-# In[17]:
+# In[ ]:
 
 
 x = mean_obj_area_arr.values
@@ -202,7 +202,7 @@ ax.set_ylabel("N")
 plt.tight_layout()
 
 
-# In[18]:
+# In[ ]:
 
 
 x = mean_obj_area_arr.values

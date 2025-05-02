@@ -121,7 +121,7 @@ def calc_clouds(yyyymmdd):
                 "time":  ds_radar.time.values,
             },
         )
-        out.to_netcdf(f"/scratch/k10/dl6968/prep_hk25/steiner_ts/number_size_{yyyymmdd}.nc")
+        out.to_netcdf(f"/scratch/xp65/dl6968/prep_hk25/steiner_ts/number_size_{yyyymmdd}.nc")
         out.close()
         ds_radar.close()
         ds_prcp.close()

@@ -112,7 +112,7 @@ def calc_clouds(yyyymmdd):
                 "time":  ds_prcp.time.values,
             },
         )
-        out.to_netcdf(f"/scratch/k10/dl6968/prep_hk25/prcp_ts/number_size_{yyyymmdd}.nc")
+        out.to_netcdf(f"/scratch/xp65/dl6968/prep_hk25/prcp_ts/number_size_{yyyymmdd}.nc")
         out.close()
         ds_prcp.close()
 

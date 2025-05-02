@@ -23,19 +23,19 @@ params={
 plt.rcParams.update(params)
 
 
-# In[2]:
-
-
-ds_ts = xr.open_mfdataset("/scratch/k10/dl6968/prep_hk25/steiner_ts/*.nc")
-
-
 # In[3]:
+
+
+ds_ts = xr.open_mfdataset("/scratch/xp65/dl6968/prep_hk25/steiner_ts/*.nc")
+
+
+# In[ ]:
 
 
 ds_ts
 
 
-# In[4]:
+# In[ ]:
 
 
 ## array to store object number
@@ -55,16 +55,16 @@ tot_mean_prcp_arr = ds_ts["tot_mean_prcp"].where(np.isfinite(ds_ts["tot_mean_prc
 cvt_tot_prcp_arr = ds_ts["cvt_tot_prcp"].where(np.isfinite(ds_ts["cvt_tot_prcp"]), other=np.nan)
 
 
-# In[5]:
+# In[ ]:
 
 
-ds_cape = xr.open_dataset("/scratch/k10/dl6968/prep_hk25/environment/radar_time/cape_steiner_ts.nc")
-ds_cin = xr.open_dataset("/scratch/k10/dl6968/prep_hk25/environment/radar_time/cin_steiner_ts.nc")
-ds_w500 = xr.open_dataset("/scratch/k10/dl6968/prep_hk25/environment/radar_time/w500_steiner_ts.nc")
-ds_rh500 = xr.open_dataset("/scratch/k10/dl6968/prep_hk25/environment/radar_time/rh500_steiner_ts.nc")
+ds_cape = xr.open_dataset("/scratch/xp65/dl6968/prep_hk25/environment/radar_time/cape_steiner_ts.nc")
+ds_cin = xr.open_dataset("/scratch/xp65/dl6968/prep_hk25/environment/radar_time/cin_steiner_ts.nc")
+ds_w500 = xr.open_dataset("/scratch/xp65/dl6968/prep_hk25/environment/radar_time/w500_steiner_ts.nc")
+ds_rh500 = xr.open_dataset("/scratch/xp65/dl6968/prep_hk25/environment/radar_time/rh500_steiner_ts.nc")
 
 
-# In[14]:
+# In[ ]:
 
 
 x = mean_obj_area_arr.values
@@ -118,7 +118,7 @@ ax.set_ylabel("N")
 plt.tight_layout()
 
 
-# In[15]:
+# In[ ]:
 
 
 x = mean_obj_area_arr.values
@@ -173,7 +173,7 @@ ax.set_ylabel("N")
 plt.tight_layout()
 
 
-# In[16]:
+# In[ ]:
 
 
 x = mean_obj_area_arr.values
@@ -228,7 +228,7 @@ ax.set_ylabel("N")
 plt.tight_layout()
 
 
-# In[18]:
+# In[ ]:
 
 
 x = mean_obj_area_arr.values
