@@ -1,4 +1,3 @@
-# some added text
 #!/usr/bin/env python
 import argparse
 import numpy as np
