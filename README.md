@@ -8,6 +8,8 @@ In this Hackathon, we are using high-resolution models that omit several traditi
 
 See more description [here](https://github.com/dongqi-DQ/hk25-teams/blob/main/hk25-AusNode/hk25-AusNode-LargeScaleP.md).
 
+More instructions about the hackathon at the AUS node can be found [here](https://github.com/21centuryweather/hackathon-2025-australia-node). 
+
 **Project leads:**  
 
 Dongqi Lin ([@dongqi-DQ](https://github.com/dongqi-DQ)), Monash University ([dongqi.lin@monash.edu](dongqi.lin@monash.edu))  
@@ -37,7 +39,7 @@ Demo scripts can be found in [Demo](/Demo/). These scripts replicate Figures 1 a
 
 We may need to have a separate Python environment for the XCAPE pacakge. Follow the [instructions](Instructions_for_python_environment.md) if you are not familiar with conda environment handling.
 
-More instructions about the hackathon can be found [here](https://github.com/21centuryweather/hackathon-2025-australia-node). 
+
 
 ## Contributing Guidelines
 
