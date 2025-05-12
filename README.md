@@ -17,7 +17,7 @@ Yi-Xian Li ([@y-x-li](https://github.com/y-x-li)), Monash University ([yi-xian.l
 
 **Project members:**   
 
-Husnain Asif ([@rivaon](https://github.com/rivaon))
+Husnain Asif ([@rivaon](https://github.com/rivaon)), Australian National University ([husnain.asif@anu.edu.au](husnain.asif@anu.edu.au))
 
 **Collaborators:** 
 - This project overlaps with the Mesoscale Degree of Organization (hk25-AusNode-DOCmeso)
